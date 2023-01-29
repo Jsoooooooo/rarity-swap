@@ -1,0 +1,10 @@
+[package]
+name = 'U256'
+version = '1.0.0'
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-framework'
+
+[addresses]
+u256 = "1b0402544351636c4b71e6829336f8ff5276041f135eed7502ef5b9b0ce2192c"

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/temp" />
+      <excludeFolder url="file://$MODULE_DIR$/.tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/build" />
+      <excludeFolder url="file://$MODULE_DIR$/liquidswap_lp/build" />
+      <excludeFolder url="file://$MODULE_DIR$/resource_account/build" />
+      <excludeFolder url="file://$MODULE_DIR$/moveSwap/build" />
+      <excludeFolder url="file://$MODULE_DIR$/moveSwap/swap_part/build" />
+      <excludeFolder url="file://$MODULE_DIR$/new_swap/build" />
+      <excludeFolder url="file://$MODULE_DIR$/lp_token/build" />
+      <excludeFolder url="file://$MODULE_DIR$/move-swap/build" />
+      <excludeFolder url="file://$MODULE_DIR$/u256/build" />
+      <excludeFolder url="file://$MODULE_DIR$/uq64x64/build" />
+      <excludeFolder url="file://$MODULE_DIR$/token-staking/build" />
+      <excludeFolder url="file://$MODULE_DIR$/init_lp/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

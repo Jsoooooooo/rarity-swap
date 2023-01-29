@@ -1,0 +1,24 @@
+[package]
+name = 'MoveSwap'
+version = '1.0.1'
+upgrade_policy = "compatible"
+
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-framework'
+
+[dependencies.UQ64x64]
+local = "../uq64x64"
+
+[dependencies.U256]
+local = "../u256"
+
+[addresses]
+# original_account
+swap = '1b0402544351636c4b71e6829336f8ff5276041f135eed7502ef5b9b0ce2192c'
+dao_admin = '48d7724a869a83e1c9d17b0667267bb5637c20dd8488acab6101541dbd90b155'
+fee_admin = '48d7724a869a83e1c9d17b0667267bb5637c20dd8488acab6101541dbd90b155'
+# resource_account
+dev_account = 'd5d5d9e2d6f9906e0e7e2bd60f9d9af92e415b904d6d0ae1dab2439f70f07526'
+test_coin = "0x111"
